@@ -41,11 +41,11 @@ features                                  :
     
   - title                                 : Smart BMS compatible
     description                           : Works with DieBieMS and FlexiBMS smart Battery Management Systems connected via CAN bus.
-    fontawesome_icon_name                 : mobile
+    fontawesome_icon_name                 : network-wired
 
   - title                                 : Speed Profiles
     description                           : Quickly alter your vehicles performance with speed and power limits.
-    fontawesome_icon_name                 : play-circle
+    fontawesome_icon_name                 : tachometer-alt
 
   - title                                 : Robogotchi Logging
     description                           : Sync your ride data, view status information and configure your Robogotchi from one place.
@@ -53,15 +53,15 @@ features                                  :
 
   - title                                 : Input Configuration
     description                           : Setup your remote, adjust throttle curves or reconfigure your balance board.
-    fontawesome_icon_name                 : adjust
+    fontawesome_icon_name                 : cog
   
   - title                                 : Motor Configuration
     description                           : Changing motors, sensor types, gear ratios and tires sizes made easy.
-    fontawesome_icon_name                 : star
+    fontawesome_icon_name                 : cogs
 
   - title                                 : Real time statistics
     description                           : View power remaining, power used, critical temperatures, distance traveled and more in real time.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+    fontawesome_icon_name                 : chart-line
 
   - title                                 : TCP Bridge
     description                           : Share your vehicle's Bluetooth connection over WiFi with other devices on your local network.
@@ -69,7 +69,7 @@ features                                  :
 
   - title                                 : Vehicle Manager
     description                           : Retire, Adopt or Remove vehicles you've previously connected to.
-    fontawesome_icon_name                 : info-circle
+    fontawesome_icon_name                 : th-list
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
