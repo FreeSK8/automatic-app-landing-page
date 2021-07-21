@@ -1,13 +1,15 @@
 #page title
 page_title                                : FreeSK8 Mobile                            # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
+codex_link                    : https://codex.freesk8.org
+
 # App Info
 ios_app_id                                : 1534050181                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             : #https://apps.apple.com/us/app/freesk8-mobile/id1534050181                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            : https://play.google.com/store/apps/details?id=com.derelictrobot.freesk8_mobile                                          # Enter Google Play Store URL.
-presskit_download_link                    : https://derelictrobot.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
@@ -38,6 +40,10 @@ features                                  :
   - title                                 : Compatible with VESC firmware 5.1+
     description                           : Connect to your vehicle via Bluetooth using a Robogotchi, the built in adapter or an external radio module.
     fontawesome_icon_name                 : magic
+
+  - title                                 : Robogotchi Logging
+    description                           : Sync your ride data, view status information and configure your Robogotchi from one place.
+    fontawesome_icon_name                 : sync
     
   - title                                 : Smart BMS compatible
     description                           : Works with DieBieMS and FlexiBMS smart Battery Management Systems connected via CAN bus.
@@ -46,10 +52,6 @@ features                                  :
   - title                                 : Speed Profiles
     description                           : Quickly alter your vehicles performance with speed and power limits.
     fontawesome_icon_name                 : tachometer-alt
-
-  - title                                 : Robogotchi Logging
-    description                           : Sync your ride data, view status information and configure your Robogotchi from one place.
-    fontawesome_icon_name                 : sync
 
   - title                                 : Input Configuration
     description                           : Setup your remote, adjust throttle curves or reconfigure your balance board.
